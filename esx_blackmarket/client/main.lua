@@ -1787,7 +1787,7 @@ Citizen.CreateThread(function()
 
     end
 
-   if IsControlPressed(0,  Keys['F6']) and PlayerData.job ~= nil and PlayerData.job.name == 'ms13' and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'ms13_actions') and (GetGameTimer() - GUI.Time) > 150 then
+   if IsControlPressed(0,  Keys['F7']) and PlayerData.job ~= nil and PlayerData.job.name == 'ms13' and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'ms13_actions') and (GetGameTimer() - GUI.Time) > 150 then
      Openms13ActionsMenu()
      GUI.Time = GetGameTimer()
     end
